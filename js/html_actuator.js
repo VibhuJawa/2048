@@ -146,7 +146,7 @@ HTMLActuator.prototype.updateBestScore = function (bestScore) {
 
 HTMLActuator.prototype.message = function (won) {
   var type    = won ? "game-won" : "game-over";
-  var message = won ? "You win!" : "Game over!";
+  var message = won ? "You saved India  " : "Game over!";
 
   if (typeof ga !== "undefined") {
     ga("send", "event", "game", "end", type, this.score);
@@ -172,7 +172,7 @@ HTMLActuator.prototype.scoreTweetButton = function () {
   tweet.setAttribute("href", "https://twitter.com/share");
   tweet.textContent = "Tweet";
 
-  var text = "" + this.score + " points in Udacity2048! http://ow.ly/vpoFS Code your own game in their new mini course http://ow.ly/vpaLY #2048game"
+  var text = "" + this.score + " game score"
   tweet.setAttribute("data-text", text);
 
   return tweet;
