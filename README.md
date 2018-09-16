@@ -1,7 +1,6 @@
 ## Indian 2048
 
 This impliments a 2048 for [indian elections of 2014] (http://vibhujawa.github.io/2048/).
-Play for fun.
 
 ## Make 2048
 
